@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(243, 153, 153);
+    width: 100%;
+
+}
+.a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: center;
+}
+header ul il{
+    margin: 20px;
+
+}
+
+ img{
+    width: 200px;
+ }
+ h1{
+    font-size: 44px;
+    color: rgb(91, 91, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ p{
+    font-size: 30px;
+    color: rgb(245, 129, 129);
+ }
+
+ .contenedor{
+    display: flex;
+    margin: 10px 0 10px 0 ;
+    flex-direction: row;
+    width: 100%;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img {
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 12px;
+}
